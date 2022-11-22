@@ -60,9 +60,7 @@ class Speeder(Item):
 
 class Slower(Item):
     def __init__(self):
-        self.animation = [pygame.image.load('items/Snail/snail1.png'),
-                          pygame.image.load('items/Snail/snail2.png'),
-                          pygame.image.load('items/Snail/snail3.png')]
+        self.animation = [pygame.image.load('items/Snail/snail1.png'.format(i)) for i in range(1, 4)]
         self.animcount = 0
 
     def render(self):
@@ -79,14 +77,7 @@ class Slower(Item):
 
 class BusterPoints(Item):
     def __init__(self):
-        self.animation = [pygame.image.load('items/coin/01coin (0).png'),
-                          pygame.image.load('items/coin/01coin (1).png'),
-                          pygame.image.load('items/coin/01coin (2).png'),
-                          pygame.image.load('items/coin/01coin (3).png'),
-                          pygame.image.load('items/coin/01coin (4).png'),
-                          pygame.image.load('items/coin/01coin (5).png'),
-                          pygame.image.load('items/coin/01coin (6).png'),
-                          pygame.image.load('items/coin/01coin (7).png')]
+        self.animation = [pygame.image.load(f'items/coin/01coin ({i}).png'.format(i)) for i in range(8)]
         self.animcount = 0
 
     def render(self):
@@ -104,8 +95,7 @@ class BusterPoints(Item):
 class Screamer(Item):
     def __init__(self):
         self.img = pygame.image.load('items/Skul.png').convert_alpha()
-        self.img_screamer = [pygame.image.load('Screamer/screamer1.png'), pygame.image.load('Screamer/screamer2.png'),
-                             pygame.image.load('Screamer/screamer3.png')]
+        self.img_screamer = [pygame.image.load(f'Screamer/screamer{i}.png'.format(i)) for i in range(1, 4)]
         self.screamer_sound = pygame.mixer.Sound('Sounds/screamer_sound.wav')
 
     def render(self):
@@ -141,11 +131,7 @@ class Longer(Item):
         self.del_item()
 
     def __init__(self):
-        self.animation = [pygame.image.load('items/RedMushroom/RedMushroom1.png'),
-                          pygame.image.load('items/RedMushroom/RedMushroom2.png'),
-                          pygame.image.load('items/RedMushroom/RedMushroom3.png'),
-                          pygame.image.load('items/RedMushroom/RedMushroom4.png'),
-                          pygame.image.load('items/RedMushroom/RedMushroom5.png')]
+        self.animation = [pygame.image.load(f'items/RedMushroom/RedMushroom{i}.png'.format(i)) for i in range(1, 6)]
         self.animcount = 0
 
     def render(self):
@@ -158,11 +144,7 @@ class Longer(Item):
 
 class Jewish(Item):
     def __init__(self):
-        self.animation = [pygame.image.load('items/PurpleMushroom/PurpleMushroom1.png'),
-                          pygame.image.load('items/PurpleMushroom/PurpleMushroom2.png'),
-                          pygame.image.load('items/PurpleMushroom/PurpleMushroom3.png'),
-                          pygame.image.load('items/PurpleMushroom/PurpleMushroom4.png'),
-                          pygame.image.load('items/PurpleMushroom/PurpleMushroom5.png')]
+        self.animation = [pygame.image.load(f'items/PurpleMushroom/PurpleMushroom{i}.png') for i in range(1, 6)]
         self.animcount = 0
 
     def render(self):
@@ -225,11 +207,7 @@ class LifeHeart(Item):
 class RockOnDefaultArea(Item):
 
     def __init__(self):
-        self.sprites = [pygame.image.load('items/rocks/rock_on_deafault_area1.png'),
-                        pygame.image.load('items/rocks/rock_on_default_area2.png'),
-                        pygame.image.load('items/rocks/rock_on_default_area3.png'),
-                        pygame.image.load('items/rocks/rock_on_default_area4.png'),
-                        pygame.image.load('items/rocks/rock_on_default_area5.png')]
+        self.sprites = [pygame.image.load(f'items/rocks/rock_on_default_area{i}.png') for i in range(1, 6)]
 
         self.rocks_count = randint(10, 100)
         self.count_chains = randint(2, 20)
@@ -276,11 +254,7 @@ class RockOnDefaultArea(Item):
 
 class RockOnBosssArea(RockOnDefaultArea):
     def __init__(self):
-        self.sprites = sprites = [pygame.image.load('items/rocks/rock_on_boss_area1.png'),
-                                  pygame.image.load('items/rocks/rock_on_boss_area2.png'),
-                                  pygame.image.load('items/rocks/rock_on_boss_area3.png'),
-                                  pygame.image.load('items/rocks/rock_on_boss_area4.png'),
-                                  pygame.image.load('items/rocks/rock_on_boss_area5.png')]
+        self.sprites = [pygame.image.load(f'items/rocks/rock_on_boss_area{i}.png'.format(i)) for i in range(1, 6)]
 
         self.rocks_count = randint(10, 200)
         self.count_chains = randint(2, 50)

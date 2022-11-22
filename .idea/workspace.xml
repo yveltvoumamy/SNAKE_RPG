@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="189e4dc6-fb9c-4505-bacd-b6b2eb793b3a" name="Changes" comment="Project">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AREAS.py" beforeDir="false" afterPath="$PROJECT_DIR$/AREAS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BATTLE_SCENE.py" beforeDir="false" afterPath="$PROJECT_DIR$/BATTLE_SCENE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BOSSES.py" beforeDir="false" afterPath="$PROJECT_DIR$/BOSSES.py" afterDir="false" />
@@ -313,6 +314,8 @@
       <change beforePath="$PROJECT_DIR$/MENU.py" beforeDir="false" afterPath="$PROJECT_DIR$/MENU.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPG_SCENE.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPG_SCENE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SNAKES.py" beforeDir="false" afterPath="$PROJECT_DIR$/SNAKES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake_RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Snake_RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake_RPG/BOSSES.py" beforeDir="false" afterPath="$PROJECT_DIR$/Snake_RPG/BOSSES.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/txt/rating_board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/rating_board.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -472,7 +475,8 @@
       <workItem from="1669048606582" duration="7309000" />
       <workItem from="1669059145679" duration="1164000" />
       <workItem from="1669060366416" duration="2542000" />
-      <workItem from="1669063732320" duration="1858000" />
+      <workItem from="1669063732320" duration="7164000" />
+      <workItem from="1669149118669" duration="6226000" />
     </task>
     <task id="LOCAL-00001" summary="Project">
       <created>1669058213525</created>
@@ -503,7 +507,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1669064211634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1669155294664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/4_contest$RPG_SCENE.coverage" NAME="RPG_SCENE Coverage Results" MODIFIED="1668596634044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/4_contest$test.coverage" NAME="test Coverage Results" MODIFIED="1668091742119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/4_contest$snake.coverage" NAME="snake Coverage Results" MODIFIED="1668601023902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Snake-main/Snake-main" />
